@@ -1,0 +1,14 @@
+{
+    "appname": "SpindlySample",
+    "driver": [
+        "webview",
+        "browser"
+    ],
+    "devdriver": "webview",
+    "os": [
+        "linux"
+    ],
+    "arch": [
+        "amd64"
+    ]
+}

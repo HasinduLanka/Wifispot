@@ -1,0 +1,46 @@
+{
+    "GlobalHub": {
+        "filepath": "stores/global",
+        "stores": {
+            "AppName": {
+                "type": "string",
+                "template": "``",
+                "default": "Wifispot"
+            },
+            "Msg": {
+                "type": "string"
+            },
+            "SrcInterface": {
+                "type": "string"
+            },
+            "DstInterface": {
+                "type": "string"
+            },
+            "Pass": {
+                "type": "string"
+            },
+            "Name": {
+                "type": "string"
+            },
+            "NetworkInterfaces": {
+                "type": "[]string",
+                "template": "[]string{}"
+            },
+            "Refresh": {
+                "type": "bool",
+                "template": "false"
+            },
+            "Start": {
+                "type": "bool",
+                "template": "false"
+            },
+            "IsRunning": {
+                "type": "bool",
+                "template": "false"
+            }
+        },
+        "instances": [
+            "Global"
+        ]
+    }
+}
